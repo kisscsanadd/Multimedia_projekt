@@ -1,0 +1,53 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-image: url("dot.png");
+}
+
+.wall {
+    background-image: url("wall.jpg");
+}
+
+.cherry {
+    background-image: url("cherry.png");
+}
+
+.red {
+    background-image: url("red.png");
+}
+
+.pink {
+    background-image: url("pink.png");
+}
+
+.blue {
+    background-image: url("blue.jpg");
+}
+
+.orange {
+    background-image: url("orange.jpg");
+}
+
+.purple {
+    background-image: url("purple.png");
+}
+
+.pac-man {
+    background-image: url("pac.png");
+    border-radius: 10px;
+}
+
+.scared {
+    background-image: url("scared.png");
+}
