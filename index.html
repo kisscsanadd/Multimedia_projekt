@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <title>PacMan</title>
     <link rel="stylesheet" href="style.css"/>
-    <script src="app.js" charset="utf-8"></script>
+    <script src="pacman.js" charset="utf-8"></script>
 </head>
 <body>
+<audio id="myAudio">
+    <source src="pac-man-intermission.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
 
-<div class="grid"></div>
+<div class="main">
 
-<h2>Score : <span id="score"> 0 </span></h2>
+<div class="level"></div>
 
+<h2 id="scoreLine">Score : <span id="score"> 0 </span> Life : <span id="life"> 3 </span></h2>
 
+</div>
 </body>
 </html>

@@ -1,14 +1,26 @@
-.grid {
+.level {
     display: flex;
     flex-wrap: wrap;
     width: 560px;
     height: 560px;
     border: solid black;
+    margin:auto;
 }
 
-.grid div {
+.level div {
     width: 20px;
     height: 20px;
+}
+.main{
+    align-content: center;
+    border: 3px solid #ee50e5;
+    background-color: black;
+
+}
+#scoreLine{
+    text-align: center;
+    margin: auto;
+    color: #ee50e5;
 }
 
 .pac-dot {
@@ -21,6 +33,14 @@
 
 .cherry {
     background-image: url("cherry.png");
+}
+
+.heart {
+    background-image: url("heart.png");
+}
+
+.empty {
+    background-color: white;
 }
 
 .red {
@@ -44,8 +64,8 @@
 }
 
 .pac-man {
+    background-color: white;
     background-image: url("pac.png");
-    border-radius: 10px;
 }
 
 .scared {
